@@ -58,6 +58,9 @@ class web_driverA (web_driver):
                 pyautogui.press('enter')
                 pyautogui.moveTo (945, 587)
                 pyautogui.leftClick()
+                if i == 1:
+                    pyautogui.moveTo (1844, 371)
+                    pyautogui.leftClick()
                 time.sleep(15)
             else: break
 
